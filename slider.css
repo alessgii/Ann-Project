@@ -1,0 +1,49 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 175px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  display: none;
+  object-fit: cover;
+  
+}
+
+.slider img:first-child {
+  display: block;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFF;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-dot.active {
+  background-color: #FFF;
+}

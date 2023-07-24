@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.new-episodes {
+  
+}
+.sec-title {
+  margin: 0 auto;
+}
+.sec-title .sec-name {
+  color: #FFF;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.episode-list {
+  display: inline-block;
+  
+}
+.episode-list .column {
+  list-style: none;
+}
+.episode {
+  position: relative;
+}
+.episode a {
+  width: 150px;
+  height: auto;
+  color: #FFF;
+  text-decoration: none;
+}
+.thumb img{
+  display: inline-block;
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width:1080px){
+  body{
+    background: #000;
+ }
+ .container {
+  display: flex;
+}
+.sec-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.sec-title h3 {
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.episode-list {
+  list-style: none;
+  display: inline-block;
+}
+.column {
+  list-style: none;
+  display: flex;
+}
+.episode a img {
+  width: 350px;
+  margin-bottom: 10px;
+}
+.column a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+.thumb img {
+  width: 100%;
+  border-radius: 2px;
+}
+.title {
+  color: #FFF;
+  font-size: 16px;
+  margin: 0 auto;
+}
+} */
